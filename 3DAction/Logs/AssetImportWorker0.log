@@ -1,0 +1,417 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ja' Physical Memory: 16302 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/shiro/Desktop/UnityGames/so-ra-game2/GameDev/3DAction
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57473
+Successfully changed project path to: C:/Users/shiro/Desktop/UnityGames/so-ra-game2/GameDev/3DAction
+C:/Users/shiro/Desktop/UnityGames/so-ra-game2/GameDev/3DAction
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 146.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shiro/Desktop/UnityGames/so-ra-game2/GameDev/3DAction/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003642 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 125.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015114 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.17 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1663ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1434ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (865ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6753 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (12.0 MB). Loaded Objects now: 7161.
+Memory consumption went from 292.4 MB to 280.4 MB.
+Total: 9.282600 ms (FindLiveObjects: 0.630800 ms CreateObjectMapping: 0.635300 ms MarkObjects: 2.821900 ms  DeleteObjects: 5.193500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 432091.723231 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_Body_00_SKIN (Instance).asset
+  artifactKey: Guid(5188d85339d13fd4384ee26726a81680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_Body_00_SKIN (Instance).asset using Guid(5188d85339d13fd4384ee26726a81680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809c8c33280b2914ff54e7cf5b77cf6') in 0.423539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceMouth_00_FACE (Instance).asset
+  artifactKey: Guid(a1f6fdb7585f28d4d9c2c88cb5115f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceMouth_00_FACE (Instance).asset using Guid(a1f6fdb7585f28d4d9c2c88cb5115f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a890c4ad607a26dfcbc0450d46f0002') in 0.032891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance).asset
+  artifactKey: Guid(261258374e4c1f846a3d353efd5764fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance).asset using Guid(261258374e4c1f846a3d353efd5764fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d8f8d80d6391995685be7aa49431fe') in 0.032093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance) 1.asset
+  artifactKey: Guid(a6b8720602aa45d4c9096ecd67f7fef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance) 1.asset using Guid(a6b8720602aa45d4c9096ecd67f7fef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db424e0d783a369994860df70d459bf') in 0.030271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceMouth_00_FACE (Instance) 1.asset
+  artifactKey: Guid(825428fea4c89684a9c1552e01e6e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceMouth_00_FACE (Instance) 1.asset using Guid(825428fea4c89684a9c1552e01e6e6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99a1c580d29f8e547ae9828362bcfcb') in 0.026112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_005_01_Tops_01_CLOTH (Instance) 1.asset
+  artifactKey: Guid(16a1be0ee1904e04aa4dd0a32b18cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_005_01_Tops_01_CLOTH (Instance) 1.asset using Guid(16a1be0ee1904e04aa4dd0a32b18cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad3d6b00a6e072f7b50adaf1bbb7f8f') in 0.029037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance)_mtoon.mat
+  artifactKey: Guid(036050180494dcf43a6ae89edc5b45d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance)_mtoon.mat using Guid(036050180494dcf43a6ae89edc5b45d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5302c98445452d9f60740093d5934e') in 0.054304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset
+  artifactKey: Guid(caace17aa417ef84fbbeae3af6564f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset using Guid(caace17aa417ef84fbbeae3af6564f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2774fff72a381fbd5e56dcb168d566') in 0.024240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_Face_00_SKIN (Instance).asset
+  artifactKey: Guid(dab6907e38882d64981a8b01984f5ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_Face_00_SKIN (Instance).asset using Guid(dab6907e38882d64981a8b01984f5ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb32e05b3bc2bc7c467c06cc010aef1e') in 0.029330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_006_01_Shoes_01_CLOTH (Instance) 1.asset
+  artifactKey: Guid(82a09c217fc2a4f46a976a9a8e601108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_006_01_Shoes_01_CLOTH (Instance) 1.asset using Guid(82a09c217fc2a4f46a976a9a8e601108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1f5c89e275b8797a0bfa4bdef353e8') in 0.023313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.344059 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_Body_00_SKIN (Instance).asset
+  artifactKey: Guid(5188d85339d13fd4384ee26726a81680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_Body_00_SKIN (Instance).asset using Guid(5188d85339d13fd4384ee26726a81680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8985a002f29adb4e87ae90da2fcfdf4') in 0.113973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceEyeline_00_FACE (Instance) 1.asset
+  artifactKey: Guid(5d92886e97fd1f74e8ea7ccefa746f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceEyeline_00_FACE (Instance) 1.asset using Guid(5d92886e97fd1f74e8ea7ccefa746f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fcfadaa3a2130698706a7f8fb6915a') in 0.024619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance).asset
+  artifactKey: Guid(261258374e4c1f846a3d353efd5764fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_Hair_00_HAIR (Instance).asset using Guid(261258374e4c1f846a3d353efd5764fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21ce010cfb5907919e2c7b1cb9b182c') in 0.070007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceEyeline_00_FACE (Instance).asset
+  artifactKey: Guid(c3b587f6ec6ef3f4797073b08f48fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceEyeline_00_FACE (Instance).asset using Guid(c3b587f6ec6ef3f4797073b08f48fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e468723785d9f9e6c1956d27d6100013') in 0.029847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_001_01_Bottoms_01_CLOTH (Instance).asset
+  artifactKey: Guid(4c32330375b034241bacd498ba411f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_001_01_Bottoms_01_CLOTH (Instance).asset using Guid(4c32330375b034241bacd498ba411f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11f11638b6a065dfd76c391f0769d4e') in 0.025103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_005_01_Tops_01_CLOTH (Instance) 1.asset
+  artifactKey: Guid(16a1be0ee1904e04aa4dd0a32b18cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_005_01_Tops_01_CLOTH (Instance) 1.asset using Guid(16a1be0ee1904e04aa4dd0a32b18cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf33ba04e37fa1edb1acd9d6f61f00f') in 0.026194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_HairBack_00_HAIR (Instance).asset
+  artifactKey: Guid(31b95d4a1c23a764a82af28b59ea2c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_HairBack_00_HAIR (Instance).asset using Guid(31b95d4a1c23a764a82af28b59ea2c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41108dc6325679eeb34b26812c87487') in 0.024585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset
+  artifactKey: Guid(caace17aa417ef84fbbeae3af6564f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset using Guid(caace17aa417ef84fbbeae3af6564f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c90bfd985a8d2276a91cd30d4da4b40') in 0.023853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset
+  artifactKey: Guid(2950215572fcf744c9b97d757e3ed912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset using Guid(2950215572fcf744c9b97d757e3ed912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b7e77d2d11885c63ec5792e83cfacf') in 0.023150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Player/Avator/Girl001.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset
+  artifactKey: Guid(aab863dd1f1869e4495ae30b9f747647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Avator/Girl001.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset using Guid(aab863dd1f1869e4495ae30b9f747647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39c9286c1f15aedc58d5879da91df3') in 0.022013 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013860 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.IOException: Sharing violation on path C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Assets\VRM_related\lilToon\Editor\CurrentRP.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append) [0x00008] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool)
+  at lilToon.lilStartup.lilStartupMethod () [0x0009b] in C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Assets\VRM_related\lilToon\Editor\lilStartup.cs:80 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1176ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (605ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.58 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6596 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (12.0 MB). Loaded Objects now: 7268.
+Memory consumption went from 289.6 MB to 277.7 MB.
+Total: 7.698100 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.368100 ms MarkObjects: 2.521300 ms  DeleteObjects: 4.340700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 343.586470 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6223045801e4286f7dba899cc77913f5') in 0.054931 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shiro\Desktop\UnityGames\so-ra-game2\GameDev\3DAction\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1226ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (633ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.81 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6597 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (12.0 MB). Loaded Objects now: 7283.
+Memory consumption went from 289.8 MB to 277.8 MB.
+Total: 11.414500 ms (FindLiveObjects: 0.787100 ms CreateObjectMapping: 0.772100 ms MarkObjects: 3.073400 ms  DeleteObjects: 6.780700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
